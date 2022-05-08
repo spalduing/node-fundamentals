@@ -1,18 +1,18 @@
-// console.group('Exaple: #1');
-// function imAsync(myCallback) {
-//   console.log('Hi, Im a asynchronous function');
-//   setTimeout(() => {
-//     console.log('Im being asynchronus');
-//     myCallback();
-//   }, 1000);
-// }
+console.group('Exaple: #1');
+function imAsync(myCallback) {
+  console.log('Hi, Im a asynchronous function');
+  setTimeout(() => {
+    console.log('Im being asynchronus');
+    myCallback();
+  }, 1000);
+}
 
-// console.log('Starting process...');
-// imAsync(function () {
-//   console.log('Ending process...');
-// });
+console.log('Starting process...');
+imAsync(function () {
+  console.log('Ending process...');
+});
 
-// console.groupEnd();
+console.groupEnd();
 
 console.group('Exaple: #2');
 
