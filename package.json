@@ -1,0 +1,24 @@
+{
+  "name": "fundamentals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spalduing/node-fundamentals.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spalduing/node-fundamentals/issues"
+  },
+  "homepage": "https://github.com/spalduing/node-fundamentals#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16",
+    "pm2": "^5.2.0"
+  }
+}
